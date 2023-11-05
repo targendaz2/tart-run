@@ -3,12 +3,22 @@
   "version": "2.2.0",
   "description": "",
   "keywords": [
+    "apple silicon",
     "macOS",
     "tart",
-    "tart.run"
+    "tart.run",
+    "virtual machine"
   ],
   "license": "SEE LICENSE IN bin/LICENSE",
   "author": "David Rosenberg <david@dgrdev.com>",
+  "homepage": "https://github.com/targendaz2/tart-run#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/targendaz2/tart-run.git"
+  },
+  "bugs": {
+    "url": "https://github.com/targendaz2/tart-run/issues"
+  },
   "scripts": {
     "compile": "tsc",
     "prepack": "npm run compile && node ./out/install.js",
