@@ -49,11 +49,5 @@
     "tar-stream": "^3.1.6",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
-  },
-  "os": [
-    "darwin"
-  ],
-  "cpu": [
-    "arm64"
-  ]
+  }
 }
