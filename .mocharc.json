@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json.schemastore.org/mocharc",
+  "color": true,
+  "enable-source-maps": true,
+  "extension": [
+    "ts"
+  ],
+  "recursive": true,
+  "require": "ts-node/register"
+}

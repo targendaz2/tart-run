@@ -1,0 +1,9 @@
+.github
+.vscode
+src
+test
+.env
+.eslintrc.json
+.markdownlint.json
+.mocharc.json
+tsconfig.json

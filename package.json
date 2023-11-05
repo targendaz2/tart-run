@@ -1,0 +1,49 @@
+{
+  "name": "tart-run",
+  "version": "2.2.0",
+  "description": "",
+  "keywords": [
+    "macOS",
+    "tart",
+    "tart.run"
+  ],
+  "license": "SEE LICENSE IN bin/LICENSE",
+  "author": "David Rosenberg <david@dgrdev.com>",
+  "scripts": {
+    "compile": "tsc",
+    "prepack": "npm run compile && node ./out/install.js",
+    "test": "mocha"
+  },
+  "directories": {
+    "lib": "out",
+    "bin": "bin",
+    "test": "test"
+  },
+  "bin": {
+    "tart": "./out/run.js"
+  },
+  "devDependencies": {
+    "@octokit/rest": "^20.0.2",
+    "@octokit/types": "^12.1.0",
+    "@tsconfig/node-lts": "^18.12.5",
+    "@types/chai": "^4.3.9",
+    "@types/gunzip-maybe": "^1.4.1",
+    "@types/mocha": "^10.0.3",
+    "@types/tar-stream": "^3.1.2",
+    "@typescript-eslint/eslint-plugin": "^6.8.0",
+    "@typescript-eslint/parser": "^6.8.0",
+    "chai": "^4.3.10",
+    "dotenv": "^16.3.1",
+    "gunzip-maybe": "^1.4.2",
+    "mocha": "^10.2.0",
+    "tar-stream": "^3.1.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "arm64"
+  ]
+}
